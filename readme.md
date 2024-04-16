@@ -69,7 +69,8 @@ To use the security system, the user must enter the code (default: 1324), a spac
 corresponding state number using the Bluefruit Connect app. Entering the user's Pushbullet API key
 in Node-RED on the Pi allows pictures to be received.
 
-![Screenshot_20240416_062059_Bluefruit Connect](https://github.com/clonergan3/4180lasersecurity/assets/163477135/b61522cf-8f3b-43c8-add3-fc08eb48394f)
+
+<img src="https://github.com/clonergan3/4180lasersecurity/assets/163477135/b61522cf-8f3b-43c8-add3-fc08eb48394f" width="300">
 
 
 ## Demonstration
