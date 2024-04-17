@@ -3,7 +3,7 @@ ECE 4180 Final Project
 Cullen Lonergan, Dario Tscholl
 
 The mbed IoT Laser Tripwire Security System is a device capable of detecting intruders through
-the use of an invisible laser tripwire. This system is internet of things and enabled and incorporates text notification
+the use of an invisible laser tripwire. This system is internet of things (IoT) enabled and incorporates text notification
 functionality to alert owners of potential intrusions. Bluetooth is used to control the device.
 
 ## Features
