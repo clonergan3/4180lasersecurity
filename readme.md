@@ -75,16 +75,16 @@ resets the intrusion count. If the audio alarm is enabled, the alarm continues
 to sound until the device is disarmed.
 
 ## IoT Implementation
-As already mentioned, this project used Node-RED for its IoT integration. Node-RED is an open-source visual programming tool that is used for connecting hardware devices, APIs, and online services through a browser-based flow editor. Node-RED allows to drag and drop nodes onto a canvas and wire them together to perform various tasks.
+As already mentioned, this project uses Node-RED for its IoT integration. Node-RED is an open-source visual programming tool that is used for connecting hardware devices, APIs, and online services through a browser-based flow editor. Node-RED allows to drag and drop nodes onto a canvas and wire them together to perform various tasks.
 For this project, Node-RED reads an input signal sent from the Mbed to trigger the Raspberry Pi camera. After that, Node-RED sends the picture taken to any mobile device via Pushbullet. The implementation in Node-RED looks like the following:
 
-<img width="227" alt="Node-Red" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/7731e47a-cf5c-4513-9027-d36b6a31b03a">
+<img width="400" alt="Node-Red" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/7731e47a-cf5c-4513-9027-d36b6a31b03a">
 
 Note, that a delay function node was added so that the user will receive 1 image every 2 seconds. This prevents an overflow of push notifications should the light sensor be triggered multiple times in a row. Furhtermore, to access the camera and Pushbullet nodes, the following two packages have to be installed first which can be found under 'Manage palette':
 
-<img width="278" alt="nr_cam" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/421ad3b5-1a24-472f-a8cc-b23aeb9fd851">
-
-<img width="278" alt="nr_pushbullet" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/1fabcbdf-210e-43a0-a4ff-53911b036ef9">
+<img width="400" alt="nr_cam" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/421ad3b5-1a24-472f-a8cc-b23aeb9fd851">
+<br />
+<img width="400" alt="nr_pushbullet" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/1fabcbdf-210e-43a0-a4ff-53911b036ef9">
 
 While the camera node can be used as is, the Pushbullet nodes needs to be configured. The editor looks like the following:
 
