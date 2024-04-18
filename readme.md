@@ -80,7 +80,7 @@ For this project, Node-RED reads an input signal sent from the Mbed to trigger t
 
 <img width="400" alt="Node-Red" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/7731e47a-cf5c-4513-9027-d36b6a31b03a">
 
-Note, that a delay function node was added so that the user will receive 1 image every 2 seconds. This prevents an overflow of push notifications should the light sensor be triggered multiple times in a row. Furhtermore, to access the camera and Pushbullet nodes, the following two packages have to be installed first which can be found under 'Manage palette':
+Note, that a delay function node was added so that the user will receive 1 image every 2 seconds. This prevents an overflow of push notifications should the light sensor be triggered multiple times in a row. Furhtermore, to access the camera and Pushbullet nodes, the following two packages have to be installed first under 'Manage palette':
 
 <img width="400" alt="nr_cam" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/421ad3b5-1a24-472f-a8cc-b23aeb9fd851">
 <br />
