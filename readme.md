@@ -74,6 +74,10 @@ to capture a picture. Disarming the device
 resets the intrusion count. If the audio alarm is enabled, the alarm continues
 to sound until the device is disarmed.
 
+## IoT Implementation
+We used Node-RED to take pictures on the Raspberry Pi and send them to any mobile device.
+The flow struc
+
 ## Usage
 To use the security system, the user must enter the code (default: 1324), a space, and the
 corresponding state number using the Bluefruit Connect app. Entering the user's Pushbullet API key
