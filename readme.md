@@ -37,7 +37,7 @@ In addition to the LCD, visual cues are also given through an RGB LED.
 
 ## Wiring
 | Speaker       | uLCD cable    | RGB           | Mbed          | Raspberry Pi  |
-| :-----------  | :-----------: | :-----------: | :----------:  | -----------:  |
+| :-----------  | :------------ | :------------ | :-----------  | :-----------  |
 |               |               |               | TBD           | GPIO21=P40    |
 |               |               |               | GND           | GND           |
 |               |               |               |               |               |               
