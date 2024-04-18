@@ -80,17 +80,17 @@ For this project, Node-RED reads an input signal sent from the Mbed to trigger t
 
 <img width="400" alt="Node-Red" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/7731e47a-cf5c-4513-9027-d36b6a31b03a">
 
-Note that a delay function node was added so that the user will receive 1 image every 2 seconds. This prevents an overflow of push notifications should the light sensor be triggered multiple times in a row. Furthermore, to access the camera and Pushbullet nodes, the following two packages have to be installed first under 'Manage palette':
+Note that a delay function node was added so that the user will receive 1 image every 2 seconds. This prevents an overflow of push notifications should the light sensor be triggered multiple times in a row. Furthermore, to access the camera and Pushbullet nodes, the following two packages have to be installed first under _Manage palette_:
 
 <img width="400" alt="nr_cam" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/421ad3b5-1a24-472f-a8cc-b23aeb9fd851">
 <br />
 <img width="400" alt="nr_pushbullet" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/1fabcbdf-210e-43a0-a4ff-53911b036ef9">
 
-While the camera node can be used as is, the Pushbullet nodes needs to be configured. The editor looks like the following:
+While the camera node can be used as is, the Pushbullet node first needs to be configured. Double-clicking on the node opens the editor that looks as follows:
 
 <img width="686" alt="Pushbullet_config" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/4ed155c4-ab3e-46fa-adb4-025540ea0c9b">
 
-The most important step is to add the API-key from your Pushbullet account to the node setting under Config/Edit pushbullet-config node. Device ID allows the user to select all the devices the push notification should be sent to. Once the Type has been set to file, because the image should be pushed, a title for the push notification can be chosen. 
+The most important step is to add the API-key from your Pushbullet account to the node setting under _Config/Edit pushbullet-config node_. _Device ID_ allows the user to select all devices that should receive the push notification. Once the _Type_ has been set to file, because an image should be pushed, a _Title_ for the push notification can be chosen. 
 
 ## Usage
 To use the security system, the user must enter the code (default: 1324), a space, and the
