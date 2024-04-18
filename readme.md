@@ -76,7 +76,7 @@ to sound until the device is disarmed.
 
 ## IoT Implementation
 As already mentioned, this project uses Node-RED for its IoT integration. Node-RED is an open-source visual programming tool that is used for connecting hardware devices, APIs, and online services through a browser-based flow editor. Node-RED allows to drag and drop nodes onto a canvas and wire them together to perform various tasks.
-For this project, Node-RED reads an input signal sent from the Mbed to trigger the Raspberry Pi camera. After that, Node-RED sends the picture taken to any mobile device via Pushbullet. The implementation in Node-RED looks like the following:
+For this project, Node-RED was used to read an input signal sent from the Mbed to trigger the Raspberry Pi camera. After that, Node-RED sends the picture taken to any mobile device via Pushbullet. The implementation in Node-RED looks like the following:
 
 <img width="400" alt="Node-Red" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/7731e47a-cf5c-4513-9027-d36b6a31b03a">
 
