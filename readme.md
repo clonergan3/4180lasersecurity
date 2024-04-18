@@ -35,6 +35,12 @@ In addition to the LCD, visual cues are also given through an RGB LED.
 
 ## Schematic
 
+## Wiring
+| Mbed          | Raspberry Pi  |
+| ------------- | ------------- |
+| TBD           | GPIO21=P40    |
+| GND           | GND           |
+
 ## Development
 The mbed was programmed using ARM's Keil Studio Cloud IDE and a number of libraries, including SDFileSystem (https://os.mbed.com/handbook/SDFileSystem), 4DGL-uLCD-SE (https://os.mbed.com/users/4180_1/code/4DGL-uLCD-SE/docs/tip/classuLCD__4DGL.html), and wave_player (https://os.mbed.com/users/sravet/code/wave_player/). The code is built on 
 the mbed RTOS, allowing for concurrent programming and functionality. The Adafruit Bluefruit Connect app is used to send UART messages to the mbed.
