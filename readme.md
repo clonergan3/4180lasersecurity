@@ -93,7 +93,7 @@ While the camera node can be used as is, the Pushbullet node first needs to be c
 
 <img width="686" alt="Pushbullet_config" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/4ed155c4-ab3e-46fa-adb4-025540ea0c9b">
 
-The most important step is to add the API-key from your Pushbullet account to the node setting under _Config/Edit pushbullet-config node_. _Device ID_ allows the user to select all devices that should receive the push notification. Once the _Type_ has been set to file, because an image should be pushed, a _Title_ for the push notification can be chosen. Pushbullet works for PC and Mac and is available for Android. Unfortunately, Pushbullet is not available in the Appstore anymore. More information about Pushbullet can be found on the website (https://www.pushbullet.com/).
+The most important step is to add the API-key from your Pushbullet account to the node setting under _Config/Edit pushbullet-config node_. _Device ID_ allows the user to select the devices that should receive the push notification. Once the _Type_ has been set to file, because an image should be pushed, a _Title_ for the push notification can be chosen. Pushbullet works on PC and Mac and is available for Android. Unfortunately, Pushbullet is not available in the Appstore anymore. More information about Pushbullet can be found on the website (https://www.pushbullet.com/).
 
 ## Usage
 To use the security system, the user must enter the code (default: 1324), a space, and the
