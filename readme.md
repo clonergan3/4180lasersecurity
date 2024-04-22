@@ -1,5 +1,5 @@
 # Mbed IoT Laser Tripwire Security System
-ECE 4180 Final Project
+ECE 4180 Final Project  <br />
 Cullen Lonergan, Dario Tscholl
 
 The mbed IoT Laser Tripwire Security System is a device capable of detecting intruders through
