@@ -82,11 +82,11 @@ For this project, Node-RED was used to read an input signal sent from the Mbed t
 
 Note that a delay function node was added so that the user will receive 1 image every 2 seconds. This prevents an overflow of push notifications should the light sensor be triggered multiple times in a row. To access the camera and Pushbullet nodes, the following two packages have to be installed first under _Manage palette_:
 
-**contrib-camerapi:**
+**contrib-camerapi:** <br />
 <img width="400" alt="nr_cam" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/421ad3b5-1a24-472f-a8cc-b23aeb9fd851">
 <br />
 
-**node-pushbullet:**
+**node-pushbullet:** <br />
 <img width="400" alt="nr_pushbullet" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/1fabcbdf-210e-43a0-a4ff-53911b036ef9">
 
 While the camera node can be used as is, the Pushbullet node first needs to be configured. Double-clicking on the node opens the editor that looks as follows:
