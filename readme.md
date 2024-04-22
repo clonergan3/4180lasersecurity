@@ -50,8 +50,8 @@ The mbed was programmed using ARM's Keil Studio Cloud IDE and a number of librar
 the mbed RTOS, allowing for concurrent programming and functionality. The Adafruit Bluefruit Connect app is used to send UART messages to the mbed.
 On the Pi side, Node-RED (built on Node.JS) and PushBullet were used to facilitate the IoT capability.
 
-A structure to mount the Raspberry Pi camera and uLCD was designed in Autodesk Fusion and 3D printed on a Prusa i3 Mk3 using PLA. The STL files are available here
-[click to download] (https://github.com/clonergan3/4180lasersecurity/raw/main/RPI_Parts.zip) <br />
+A structure to mount the Raspberry Pi camera and uLCD was designed in Autodesk Fusion and 3D printed on a Prusa i3 Mk3 using PLA. The STL files are available here:
+[click to download](https://github.com/clonergan3/4180lasersecurity/raw/main/RPI_Parts.zip) <br />
 <img width="575" alt="camera-cad" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/b50879b7-c049-4c26-8da8-95ec3461d3dc">
 
 ## Structure
