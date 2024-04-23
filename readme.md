@@ -103,7 +103,6 @@ in Node-RED on the Pi allows pictures to be received.
 
 
 ## Demonstration
-[![Watch the video](https://youtu.be/5XX1oY2-kMY)
-
+[![Watch the video](https://img.youtube.com/vi/5XX1oY2-kMY/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
 
