@@ -15,7 +15,7 @@ The state of the device and the number of intrusions counted since arming the de
 In addition to the LCD, visual cues are also given through an RGB LED.
 
 **Armed state:** <br />
-<img width="479" alt="armed" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/8bc9773d-e88e-4149-b92c-a098ea9e31da">
+<img width="479" alt="armed" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/8bc9773d-e88e-4149-b92c-a098ea9e31da"> <br />
 **Triggered state:** <br />
 <img width="480" alt="triggered" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/01749f72-67a2-4622-9694-51e060a31f8b">
 
