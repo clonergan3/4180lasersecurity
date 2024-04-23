@@ -14,6 +14,11 @@ using a passcode and a bluetooth enabled phone. In addition, the audible alarm m
 The state of the device and the number of intrusions counted since arming the device is displayed on an LCD. 
 In addition to the LCD, visual cues are also given through an RGB LED.
 
+**Armed state:** <br />
+<img width="479" alt="armed" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/8bc9773d-e88e-4149-b92c-a098ea9e31da">
+**Triggered state:** <br />
+<img width="480" alt="triggered" src="https://github.com/clonergan3/4180lasersecurity/assets/167137160/01749f72-67a2-4622-9694-51e060a31f8b">
+
 ## Components
 - MBED LPC1768
 - Raspberry Pi Zero W 2
