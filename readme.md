@@ -25,25 +25,19 @@ In addition to the LCD, visual cues are also given through an RGB LED.
 - Sparkfun Class D Amplifier Breakout (TPA2005D1)
 - Speaker
 - TL071CP Operational Amplifier (Comparator may also be used)
-- P-Channel MOSFET
+- P-Channel MOSFET (optional)
 - RGB LED
-- 330Ω, 10kΩ, 100Ω Resistors
+- 330Ω, 10kΩ Resistors
 - 2x 5V Power Supplies
-- 10µF Capacitors
+- 10µF Capacitor
 - Red LED
 - 4DGL uLCD (uLCD-144-G2 GFX)
 
 ## Schematic
 
-## Wiring
-| Speaker       | uLCD cable    | RGB           | Mbed          | Raspberry Pi  |
-| :-----------  | :------------ | :------------ | :-----------  | :-----------  |
-|               |               |               | TBD           | GPIO21=P40    |
-|               |               |               | GND           | GND           |
-|               |               |               |               |               |               
-|               |               |               |               |               |
-|               |               |               |               |               |
-|               |               |               |               |               |
+![4180schematic drawio](https://github.com/clonergan3/4180lasersecurity/assets/163477135/8360bc07-e628-44cb-a16d-cb9b48b07c2b)
+
+Not pictured: The class-D amplifier, Pi, Bluefruit, and laser use 5V external power. A P-channel MOSFET can also be used to switch the SD card power using p30, improving SD reliability.
 
 ## Development
 The mbed was programmed using ARM's Keil Studio Cloud IDE and a number of libraries, including SDFileSystem (https://os.mbed.com/handbook/SDFileSystem), 4DGL-uLCD-SE (https://os.mbed.com/users/4180_1/code/4DGL-uLCD-SE/docs/tip/classuLCD__4DGL.html), and wave_player (https://os.mbed.com/users/sravet/code/wave_player/). The code is built on 
